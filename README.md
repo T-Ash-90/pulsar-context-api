@@ -1,6 +1,6 @@
 # Pulsar Context API
 
-A minimal Pulsar plugin that exposes an HTTP API endpoint to get the full content of all open files in [Pulsar] (https://pulsar-edit.dev/). Useful for feeding context to LLMs or other automation tools.
+A minimal Pulsar plugin that exposes an HTTP API endpoint to get the full content of all open files in [Pulsar](https://pulsar-edit.dev/). Useful for feeding context to LLMs or other automation tools.
 
 ---
 
