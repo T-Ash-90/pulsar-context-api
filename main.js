@@ -1,6 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const path = require('path');
+const cors = require('cors');
 
 let server = null;
 
@@ -42,6 +43,13 @@ module.exports = {
     console.log('Activating Pulsar Context API plugin...');
 
     const app = express();
+
+    app.use(cors({
+      origin: '*',
+      methods: ['GET', 'POST', 'OPTIONS'],
+      allowedHeaders: ['Content-Type', 'Authorization']
+    }));
+
     app.use(bodyParser.json());
 
     app.post('/files', (req, res) => {
