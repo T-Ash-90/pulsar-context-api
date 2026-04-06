@@ -10,6 +10,7 @@ A minimal Pulsar plugin that exposes an HTTP API endpoint to get the full conten
 - Server starts automatically when the plugin is enabled.
 - Server stops automatically when the plugin is disabled.
 - No other dependencies besides express and body-parser.
+- "Copy Files" button in Pulsar for quickly copying all open files.
 - Designed for simplicity: only considers files you currently have open.
 
 ---
